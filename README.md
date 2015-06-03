@@ -18,6 +18,11 @@
   </Directory>
 ```
 
+Чтобы он запускался, а не скачивался:
+```bash
+  ln -s /etc/apache2/mods-available/cgi.load /etc/apache2/mods-enabled/cgi.load
+```
+
 Дальше качаем репозиторий:
 
 ```bash
